@@ -1,0 +1,23 @@
+
+2  
+カッコの判定 : ( +1,  ) -1 途中で-になったら終わり
+ビット全探索 : int bit = 0; bit < (1 << N); bit ++  , 
+i番目にビットが立っているか : if (bit & (1 << i))
+
+7
+配列から初めてBを超す要素を探す方法 : lower_bound(A.begin(), A.end(), B)
+
+18
+arqtan(y/x) : atan2(y, x)
+
+32
+順列 : do{}while(next_permutation(A.begin(), A.end()))
+1からNまでの配列 : vector<int> A(N);, iota(A.begin(), nums.end(), 0);
+
+38
+最小公約数 g : gcd(A, B)
+最小公倍数 l : A/gcd * B
+
+44
+両端リスト : deque<> A;
+要素の入れ替え : swap(A[x], A[y])

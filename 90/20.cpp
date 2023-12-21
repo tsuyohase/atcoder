@@ -10,13 +10,16 @@ using Graph = vector<vector<int>>;
 using mint = modint1000000007;
 
 int main() {
-  long long N;
-  cin >> N;
-  vector<long long> A(N);
-  for (long long i = 0; i < N; i++){
-    cin >> A[i];
+  long long a, b, c;
+  cin >> a >> b >> c;
+  // solve
+  long long tmp = 1;
+  for (long long i = 0;  i < b; i++){
+    tmp *= c;
   }
-  long long ans = 0;
+  string ans;
+  if (a < tmp) ans = "Yes";
+  else ans = "No";
 
   cout << ans << endl;
   return 0;
